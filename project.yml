@@ -1,0 +1,23 @@
+﻿name: clock
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "27.0"
+targets:
+  clock:
+    type: application
+    platform: iOS
+    sources:
+      - clock
+    info:
+      path: clock/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.clock
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: clock/Info.plist
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGN_IDENTITY: ""
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
