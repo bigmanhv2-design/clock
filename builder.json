@@ -1,0 +1,18 @@
+{
+  "project": "clock",
+  "platform": "ios",
+  "github": {
+    "owner": "bigmanhv2-design",
+    "repo": "clock"
+  },
+  "provider": "github",
+  "codemagic": {},
+  "bitrise": {},
+  "ios": {},
+  "flutter": {
+    "watch": {}
+  },
+  "reactNative": {},
+  "kmp": {},
+  "mobai": {}
+}
